@@ -17,7 +17,7 @@ def frases_bienvenida():
 def mostrar_titulo():
 
     st.title("Par_Impar_bot | Asistente personal")
-    st.markdown(f"Sesión Iniciada: {datetime.now().strftime("%d/%m/%Y %H:%M")}")
+    st.markdown(f"Sesión Iniciada: {datetime.now().strftime('%d/%m/%Y %H:%M')}")
     st.markdown(frases_bienvenida())
 
 def capturar_numero():
@@ -76,5 +76,6 @@ def ejecutar():
     if num:
         par_impar(num)
     
+
 
 
